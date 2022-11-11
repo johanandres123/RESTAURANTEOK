@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RESTAURANTE 1.1</string>
+    <string name="txv_usuario">Usuario</string>
+    <string name="edt_user">Ingrese Usuario</string>
+    <string name="txv_clave">Clave</string>
+    <string name="edt_clave">**********</string>
+    <string name="txt_boton">Ingresar</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itm_buscar_comandas"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar comandas"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itm_crear_comanda"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="crear comanda"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/itm_crear_cliente"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="crear cliente"
+        app:showAsAction="never"
+        />
+
+</menu>
+

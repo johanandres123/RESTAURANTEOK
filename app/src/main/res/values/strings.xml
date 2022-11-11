@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RESTAURANTE 1.1</string>
+    <string name="txv_usuario">User</string>
+    <string name="edt_user">User input</string>
+    <string name="txv_clave">Password</string>
+    <string name="edt_clave">**********</string>
+    <string name="txt_boton">Login</string>
+    <string name="login_faild" translatable="false">login Error</string>
+    <string name="alert_mensaje" translatable="false">no entry</string>
+</resources>
