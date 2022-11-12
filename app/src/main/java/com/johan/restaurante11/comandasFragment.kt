@@ -1,4 +1,10 @@
 package com.johan.restaurante11
 
-class comandasFragment {
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+
+class comandasFragment:Fragment() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+    }
 }
