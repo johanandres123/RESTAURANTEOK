@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <string name="app_name">RESTAURANTE 1.1</string>
-        <string name="txv_usuario">Usuario</string>
-        <string name="edt_user">Ingrese Usuario</string>
-        <string name="txv_clave">Clave</string>
-        <string name="edt_clave">**********</string>
-        <string name="txt_boton">Ingresar</string>
-        <string name="login_faild"> Error de Ingreso</string>
-        <string name="alert_mensaje"> No Ingreso</string>
-        <string name="txt_vision">Vision</string>
+    <string name="app_name">RESTAURANTE 1.1</string>
+    <string name="txv_usuario">Usuario</string>
+    <string name="edt_user">Ingrese Usuario</string>
+    <string name="txv_clave">Clave</string>
+    <string name="edt_clave">**********</string>
+    <string name="txt_boton">Ingresar</string>
+    <string name="login_faild"> Error de Ingreso</string>
+    <string name="alert_mensaje"> No Ingreso</string>
+    <string name="txt_vision">Vision</string>
 
 
 
-        <string name="leyenda">Satisfacer el gusto y preferencia de nuestros clientes, ofreciendo alimentos típicos nutritivos de calidad, variedad y cómodos precios, a través de un excelente y ágil servicio.</string>
-        <string name="txt_fab">Elemento Adicionado</string>
-        <string name="txt_plato1">Roast beef y pudding Yorkshire</string>
-        <string name="txt_plato2">Paella</string>
-        <string name="txt_plato3">Pad Tha</string>
-    </resources>
+    <string name="leyenda">Satisfacer el gusto y preferencia de nuestros clientes, ofreciendo alimentos típicos nutritivos de calidad, variedad y cómodos precios, a través de un excelente y ágil servicio.</string>
+    <string name="txt_fab">Elemento Adicionado</string>
+    <string name="txt_plato1">Roast beef y pudding Yorkshire</string>
+    <string name="txt_plato2">Paella</string>
+    <string name="txt_plato3">Pad Tha</string>
 </resources>
