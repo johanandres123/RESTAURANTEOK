@@ -1,21 +1,19 @@
 <resources>
-    <resources>
-        <string name="app_name">RESTAURANTE 1.1</string>
-        <string name="txv_usuario">User</string>
-        <string name="edt_user">User input</string>
-        <string name="txv_clave">Password</string>
-        <string name="edt_clave">**********</string>
-        <string name="txt_boton">Login</string>
-        <string name="login_faild">login Error</string>
-        <string name="alert_mensaje">Entry</string>
-        <string name="txt_vision">Vision</string>
+    <string name="app_name">RESTAURANTE 1.1</string>
+    <string name="txv_usuario">User</string>
+    <string name="edt_user">User input</string>
+    <string name="txv_clave">Password</string>
+    <string name="edt_clave">**********</string>
+    <string name="txt_boton">Login</string>
+    <string name="login_faild">login Error</string>
+    <string name="alert_mensaje">Entry</string>
+    <string name="txt_vision">Vision</string>
 
 
-        <string name="leyenda">Satisfy the taste and preference of our customers, offering typical nutritious food of quality, variety and affordable prices, through an excellent and agile service.</string>
+    <string name="leyenda">Satisfy the taste and preference of our customers, offering typical nutritious food of quality, variety and affordable prices, through an excellent and agile service.</string>
 
-        <string name="txt_fab">Element Add</string>
-        <string name="txt_plato1">Roast beef y pudding Yorkshire</string>
-        <string name="txt_plato2">Paella</string>
-        <string name="txt_plato3">Pad Tha</string>
-    </resources>
+    <string name="txt_fab">Element Add</string>
+    <string name="txt_plato1">Roast beef y pudding Yorkshire</string>
+    <string name="txt_plato2">Paella</string>
+    <string name="txt_plato3">Pad Tha</string>
 </resources>
