@@ -4,6 +4,8 @@ import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
@@ -26,22 +28,25 @@ class MainActivity : AppCompatActivity() {
         val positiveBotton = { dialog: DialogInterface, entero: Int ->
             val intento = Intent(this, welcomeMenu::class.java)
             startActivity(intento)
-            Toast.makeText(this, "se lanzo otra actividad", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Haga su Solicitud", Toast.LENGTH_LONG).show()
 
         }
         val negativeBotton = { xx: DialogInterface, yy: Int -> }
         if (username == "usuario@" && password == "1234") {
             Toast.makeText(this, "Credenciales correctas", Toast.LENGTH_LONG).show()
             val dialogo = AlertDialog.Builder(this)
-                .setTitle("Bienvenido" + username)
+                .setTitle("Bienvenido " +  username)
                 .setMessage(R.string.alert_mensaje)
                 .setPositiveButton("OK", positiveBotton)
-                .setNegativeButton("cancel", negativeBotton)
+                .setNegativeButton("Cancel", negativeBotton)
                 .create().show()
 
 
         } else {
-            Toast.makeText(this, "contraseña o usuario incorrecto", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, "Contraseña o Usuario Incorrecto", Toast.LENGTH_LONG).show()
         }
     }
-}
+
+
+       
+    }

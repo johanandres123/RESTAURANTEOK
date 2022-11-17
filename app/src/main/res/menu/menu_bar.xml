@@ -5,20 +5,32 @@
         android:id="@+id/itm_buscar_comandas"
         android:icon="@android:drawable/ic_menu_search"
         android:title="Buscar comandas"
-        app:showAsAction="always"
-        />
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itm_ayuda"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="Buscar comandas"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itm_Eliminar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Buscar comandas"
+        app:showAsAction="always" />
     <item
         android:id="@+id/itm_crear_comanda"
         android:icon="@android:drawable/ic_menu_save"
         android:title="crear comanda"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never"/>
     <item
         android:id="@+id/itm_crear_cliente"
         android:icon="@android:drawable/ic_menu_save"
         android:title="crear cliente"
-        app:showAsAction="never"
-        />
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/itm_sugerencias"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Sugerencias"
+        app:showAsAction="never"/>
 
 </menu>
 
