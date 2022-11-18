@@ -1,23 +1,34 @@
 package com.johan.restaurante11
 
-import MenuActivity
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
+import com.google.android.material.snackbar.Snackbar
 
 class welcomeMenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome_menu)
         setSupportActionBar(R.id.my_barra)
+        val fab:View=findViewById(R.id.fab)
+
+        fab.setOnClickListener{View->
+            Snackbar.make(View,"Adicionar Pedido",Snackbar.LENGTH_LONG).show()
+            val llamado = Intent(this, Tareasfragment::class.java)
+            startActivity(llamado)
+        }
+
     }
 
     private fun setSupportActionBar(myBarra: Int) {
 
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_bar,menu)

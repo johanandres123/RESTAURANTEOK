@@ -2,16 +2,25 @@ package com.johan.restaurante11
 
 import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
+import androidx.drawerlayout.widget.DrawerLayout
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
+import androidx.navigation.ui.navigateUp
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.navigation.NavigationView
+
 
 class MainActivity : AppCompatActivity() {
+
     private var edtusuario: EditText? = null
     private var edtclave: EditText? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +29,13 @@ class MainActivity : AppCompatActivity() {
         edtusuario = findViewById(R.id.edtusuario)
         edtclave = findViewById(R.id.edtclave)
 
+
+
     }
+
+
+
+
 
     fun login(btnentrar: View) {
         val username: String = edtusuario!!.text.toString()

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_tarea">
+
+    <fragment
+        tools:layout="@layout/fragment_acerca"
+        android:id="@+id/nav_acerca"
+        android:name="com.pepito.navigationdrawerg41.acercafragment"
+        android:label="acercafragment" />
+    <fragment
+        tools:layout="@layout/fragment_tareas"
+        android:id="@+id/nav_tarea"
+        android:name="com.pepito.navigationdrawerg41.tareasfragment"
+        android:label="tareasfragment" />
+</navigation>
