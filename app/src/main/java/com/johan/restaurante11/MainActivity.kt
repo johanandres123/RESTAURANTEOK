@@ -8,15 +8,7 @@ import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.NavigationUI.setupActionBarWithNavController
-import androidx.navigation.ui.navigateUp
-import androidx.navigation.ui.setupActionBarWithNavController
-import androidx.navigation.ui.setupWithNavController
-import com.google.android.material.navigation.NavigationView
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -26,15 +18,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         edtusuario = findViewById(R.id.edtusuario)
         edtclave = findViewById(R.id.edtclave)
 
 
 
     }
-
-
-
 
 
     fun login(btnentrar: View) {
@@ -61,7 +51,6 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Contraseña o Usuario Incorrecto", Toast.LENGTH_LONG).show()
         }
     }
-
 
        
     }

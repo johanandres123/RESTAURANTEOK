@@ -19,7 +19,7 @@ class welcomeMenu : AppCompatActivity() {
 
         fab.setOnClickListener{View->
             Snackbar.make(View,"Adicionar Pedido",Snackbar.LENGTH_LONG).show()
-            val llamado = Intent(this, Tareasfragment::class.java)
+            val llamado = Intent(this, NavigationActivity::class.java)
             startActivity(llamado)
         }
 
