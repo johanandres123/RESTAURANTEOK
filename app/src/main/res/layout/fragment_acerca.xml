@@ -16,9 +16,9 @@
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:srcCompat="@mipmap/ic_launcher" />
+            android:layout_width="293dp"
+            android:layout_height="342dp"
+            app:srcCompat="@drawable/logo_restaurante" />
 
         <TextView
             android:id="@+id/textView"

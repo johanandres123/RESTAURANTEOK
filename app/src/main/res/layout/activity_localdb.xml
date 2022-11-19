@@ -10,6 +10,13 @@
     tools:context=".MainLocaldb">
 
     <EditText
+        android:id="@+id/etid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textSize="25sp" />
+
+    <EditText
         android:id="@+id/etnombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -34,7 +41,27 @@
         android:id="@+id/btnlistar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Listar"
+        android:text="Listar TODOS"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnborrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btnlistar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listar *"
         android:textSize="25dp" />
 
     <TextView

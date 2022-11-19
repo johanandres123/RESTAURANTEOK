@@ -29,4 +29,23 @@ class MySQLResturante (context: Context): SQLiteOpenHelper(context, "menuDB.db",
         db.insert("menu",null,datos)
         db.close()
     }
+
+    fun eliminar(id:Int){
+        val args= arrayOf(id.toString())
+        val db = this.writableDatabase
+        db.delete("menu","id=?",args)
+        db.close()
+
+    }
+    fun editar(id:Int,nombre:String,email: String) {
+        val args = arrayOf(id.toString())
+
+        val datos=ContentValues()
+        datos.put("nombre",nombre)
+        datos.put("correo",email)
+
+        val db=this.writableDatabase
+        db.update("menu",datos,"id=?",args)
+        db.close()
+    }
 }

@@ -22,7 +22,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Actividad Supermercado" />
+            android:text="Adicionar Bebidas" />
 
         <Button
             android:id="@+id/button_super"
@@ -49,7 +49,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Actividad taller" />
+            android:text="Adicionar Postres" />
 
         <Button
             android:id="@+id/button3"
@@ -79,7 +79,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="Actividad lavanderia" />
+            android:text="Adicionar Extragrande" />
 
         <Button
             android:id="@+id/button"
