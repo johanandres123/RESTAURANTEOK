@@ -8,11 +8,11 @@
     <fragment
         tools:layout="@layout/fragment_acerca"
         android:id="@+id/nav_acerca"
-        android:name="com.pepito.navigationdrawerg41.acercafragment"
+        android:name="com.johan.restaurante11.Acercafragment"
         android:label="acercafragment" />
     <fragment
         tools:layout="@layout/fragment_tareas"
         android:id="@+id/nav_tarea"
-        android:name="com.pepito.navigationdrawerg41.tareasfragment"
+        android:name="com.johan.restaurante11.Tareasfragment"
         android:label="tareasfragment" />
 </navigation>

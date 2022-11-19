@@ -54,6 +54,8 @@ class welcomeMenu : AppCompatActivity() {
             true
         }
         R.id.itm_crear_cliente ->{
+            val intento= Intent(this,MainLocaldb::class.java)
+            startActivity(intento)
             Toast.makeText( this, "Informacion para su pedido ", Toast.LENGTH_SHORT).show()
             true
         }

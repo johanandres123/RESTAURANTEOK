@@ -4,17 +4,18 @@ import android.database.sqlite.SQLiteDatabase
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.johan.restaurante11.databinding.ActivityLocaldbBinding
 
 
 class MainLocaldb : AppCompatActivity() {
-    lateinit var binding: ActivityMainBinding
+    lateinit var binding: ActivityLocaldbBinding
     lateinit var menuDBRestaurante:MySQLResturante
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding= ActivityMainBinding.inflate(layoutInflater)
+        binding= ActivityLocaldbBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         menuDBRestaurante=MySQLResturante(this)
